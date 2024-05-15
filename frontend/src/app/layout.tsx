@@ -16,7 +16,9 @@ export default function RootLayout(props : RootLayoutProps) {
     const { children } = props
   return (
     <html lang="en">
-      <body className="bg-emerald-800">{children}</body>
+      <body className="bg-gradient-to-b from-emerald-800 to-emerald-950">{children}</body>
+    <br/>
+    <br/>
     </html>
   )
 }
